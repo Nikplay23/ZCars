@@ -1,3 +1,11 @@
+#rectangle_9 {
+	top: 0px;
+	left: 0px;
+	width: 1536px;
+	height: 148px;
+	background:rgba(246.5,121.52,6.16,1);
+}
+
 #kontakti {
 	top: 167px;
 	left: 201px;
@@ -9,4 +17,30 @@
 	text-decoration: underline;
 	text-align: left;
 	color:#F67906;
+}
+
+#rezerv {
+	top: 167px;
+	left: 499px;
+	width: 309px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: left;
+	color:#F67906;
+}
+
+#__p__parasta_zona {
+	top: 167px;
+	left: 886px;
+	width: 351px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-align: left;
+	color:#F67906;
+    text-decoration: underline;
 }
