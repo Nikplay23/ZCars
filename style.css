@@ -1,23 +1,12 @@
-h1{
-    
-    position: absolute;
-    width: 496px;
-    height: 51px;
-    left: 147px;
-    top: 48px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
-    text-decoration-line: underline;
-    
-    color: #000000;
-
-}
-
-body{
-    background-color:#645959
-
+#kontakti {
+	top: 167px;
+	left: 201px;
+	width: 232px;
+	height: 83px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 24px;
+	text-decoration: underline;
+	text-align: left;
+	color:#F67906;
 }
