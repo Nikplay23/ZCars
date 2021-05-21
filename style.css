@@ -1,17 +1,26 @@
 body {
 	position: relative;
-	width: 1536px;
+	width: 1525px;
 	height: 2523px;
 	background: #252222;
 }
 
-#rectangle_1 {
+#orange_rectangle_1 {
 	position: absolute;
-	width: 1536px;
+	width: 1525px;
 	height: 148px;
 	left: 0px;
 	top: 0px;
 	background: #F77A06;
+}
+
+#logo {
+	position: absolute;
+	width: 102px;
+	height: 102px;
+	left: 19px;
+	top: 22px;
+	cursor: pointer;
 }
 
 h1 {
@@ -26,25 +35,49 @@ h1 {
 	font-size: 48px;
 	line-height: 56px;
 	color: #000000;
+	cursor: pointer;
 }
 
-#rectangle_2 {
+#meklēšanas_lodziņš {
+	position: absolute;
+	width: 431px;
+	height: 42px;
+	left: 927px;
+	top: 53px;
+	background: #FFFFFF;
+	border-radius: 30px;
+}
+
+#meklēt {
+	position: absolute;
+	width: 347px;
+	height: 25px;
+	left: 981px;
+	top: 61px;
+	background: #FFFFFF;
+	font-family: Nunito;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+	border-width: 0px;
+}
+
+#lupa {
+	position: absolute;
+	width: 22px;
+	height: 21px;
+	left: 946px;
+	top: 63px;
+}
+
+#rectangle {
 	position: absolute;
 	width: 1433px;
 	height: 87px;
 	left: 103px;
 	top: 148px;
 	background: #F1F1F1;
-}
-
-#gray_rectangle_1 {
-	position: absolute;
-	width: 103px;
-	height: 2197px;
-	left: 0px;
-	top: 2345px;
-	background: #645959;
-	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 #kontakti {
@@ -59,6 +92,7 @@ h1 {
 	font-size: 48px;
 	line-height: 56px;
 	color: #F77A06;
+	cursor: pointer;
 }
 
 #rezerv {
@@ -73,6 +107,7 @@ h1 {
 	font-size: 48px;
 	line-height: 56px;
 	color: #F77A06;
+	cursor: pointer;
 }
 
 #parasta_zona {
@@ -87,6 +122,7 @@ h1 {
 	font-size: 48px;
 	line-height: 56px;
 	color: #F77A06;
+	cursor: pointer;
 }
 
 #vip {
@@ -101,14 +137,7 @@ h1 {
 	font-size: 48px;
 	line-height: 56px;
 	color: #F77A06;
-}
-
-#image_1 {
-	position: absolute;
-	width: 1330px;
-	height: 531px;
-	right: 103px;
-	top: 235px;
+	cursor: pointer;
 }
 
 #gray_rectangle_2 {
@@ -119,6 +148,14 @@ h1 {
 	top: 1881px;
 	background: #645959;
 	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#image_1 {
+	position: absolute;
+	width: 1330px;
+	height: 531px;
+	right: 103px;
+	top: 235px;
 }
 
 h2 {
@@ -133,4 +170,104 @@ h2 {
 	font-size: 26px;
 	line-height: 35px;
 	color: #FFFFFF;
+}
+
+#gray_rectangle_1 {
+	position: absolute;
+	width: 103px;
+	height: 2197px;
+	left: 0px;
+	top: 2345px;
+	background: #645959;
+	transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+#karte {
+	position: absolute;
+	width: 1433px;
+	height: 467px;
+	left: 103px;
+	top: 1881px;
+}
+
+#white_line {
+	position: absolute;
+	width: 1536px;
+	height: 20px;
+	left: 0px;
+	top: 2345px;
+	background: #F1F1F1;
+}
+
+#orange_rectangle_2 {
+	position: absolute;
+	width: 1537px;
+	height: 158px;
+	left: 0px;
+	top: 2365px;
+	background: #F77A06;
+}
+
+#logo2 {
+	position: absolute;
+	width: 55px;
+	height: 73px;
+	left: 733px;
+	top: 2365px;
+}
+
+h3 {
+	position: absolute;
+	width: 303px;
+	height: 27px;
+	left: 613px;
+	top: 2438px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #F1F1F1;
+}
+
+h4 {
+	position: absolute;
+	width: 283px;
+	height: 22px;
+	left: 217px;
+	top: 2465px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #F1F1F1;
+}
+
+h5 {
+	position: absolute;
+	width: 509px;
+	height: 22px;
+	left: 552px;
+	top: 2473px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #F1F1F1;
+}
+
+h6 {
+	position: absolute;
+	width: 215px;
+	height: 21px;
+	left: 1141px;
+	top: 2466px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	color: #F1F1F1;	
 }
