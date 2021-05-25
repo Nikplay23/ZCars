@@ -1,0 +1,32 @@
+#orange_rectangle_5{
+    position: absolute;
+	width: 1525px;
+	height: 148px;
+	left: 0px;
+	top: 0px;
+	background: #F77A06;
+}
+
+h1{
+    position: absolute;
+	width: 496px;
+	height: 51px;
+	left: 147px;
+	top: 19px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+	cursor: pointer;
+}
+
+#photo_logo{
+    position: absolute;
+	width: 102px;
+	height: 102px;
+	left: 19px;
+	top: 22px;
+	cursor: pointer;
+}
