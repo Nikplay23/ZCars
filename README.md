@@ -4,7 +4,8 @@
 ZCars
 
 ## Grupa: 
-DP1-1 
+DP1-1
+7.grupa 
 
 ## Autori: 
 Aleksandrs Loceks,
