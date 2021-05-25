@@ -1,7 +1,10 @@
-# Projekta nosaukums: ZCars
-# Grupa: DP1-1 
+# Projekta nosaukums: 
+ZCars
+# Grupa: 
+DP1-1 
 # Autori: 
-#   Aleksandrs Loceks
-#   Daniils Rudijs
-#   Nikita Peresunko 
-# FIGMA Saite: https://www.figma.com/file/NiLrG4q0brtSUo0FV1DJD3/Untitled?node-id=0%3A1
+Aleksandrs Loceks
+Daniils Rudijs
+Nikita Peresunko 
+# FIGMA Saite: 
+https://www.figma.com/file/NiLrG4q0brtSUo0FV1DJD3/Untitled?node-id=0%3A1
