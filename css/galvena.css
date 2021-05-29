@@ -1,188 +1,174 @@
 body {
-	position: relative;
-	width: 1525px;
-	height: 2311px;
+	height: 2500px;
 	background: #252222;
 }
 
-#orange_rectangle_1 {
+.orange_rectangle_1 {
 	position: absolute;
-	width: 1525px;
-	height: 148px;
-	left: 0px;
-	top: 0px;
+	z-index: 1;
+	width: 100%;
+	height: 105px;
+	display: flex;
 	background: #F77A06;
 }
 
 #logo {
-	position: absolute;
-	width: 102px;
-	height: 102px;
-	left: 19px;
-	top: 22px;
+	width: 70px;
+	height: 70px;
 	cursor: pointer;
 }
 
-h1 {
-	position: absolute;
-	width: 496px;
-	height: 51px;
-	left: 147px;
-	top: 19px;
+#nosaukums {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-decoration: none;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 48px;
+	font-size: 32px;
 	line-height: 56px;
 	color: #000000;
 	cursor: pointer;
 }
 
-#peslēgšanateksts {
-	position: absolute;
-	width: 300px;
-	height: 80px;
-	left: 602px;
-	top: 44px;
-	background: #252222;
-	border-radius: 0px;
-}
-	
-#tekstspies {
-	position: absolute;
-	width: 300px;
-	height: 80px;
-	left: 602px;
-	top: 44px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 40px;
+.pārredzamība {
 	display: flex;
-	align-items: center;
-	text-align: center;
-	color: #FFFFFF;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 20px;
+	height: 50px;
+	width: 435px;
+	justify-content: flex-start;
 }
 
-#meklēšanas_lodziņš {
-	position: absolute;
+div .pārredzamība:hover {
+	opacity: 0.5;
+}
+
+.Labā_puse_1 {
+	margin-top: 39px;
+	margin-left: 100;
+	justify-content: right;
+	display: flex;
+	width: 100%;
+	height: 50px;
+}
+
+.meklēšanas_lodziņš {
 	width: 431px;
-	height: 42px;
-	left: 997px;
-	top: 64px;
+	height: 37px;
+	top: 47px;
 	background: #FFFFFF;
 	border-radius: 30px;
 	border-color: #000000;
+	margin-top: 5px;
+	margin-right: 70px;
 }
 
 #meklēt {
 	position: absolute;
+	top: 51px;
 	width: 347px;
-	height: 25px;
-	left: 1051px;
-	top: 72px;
+	height: 21px;
 	background: #FFFFFF;
 	font-family: Nunito;
 	font-style: normal;
-	font-size: 20px;
+	font-size: 13px;
 	line-height: 26px;
 	color: #000000;
 	border-width: 0px;
 }
 
 #lupa {
-	position: absolute;
-	width: 22px;
-	height: 21px;
-	left: 1016px;
-	top: 74px;
+	width: 19px;
+	height: 18px;
+	padding-top: 9px;
+	padding-left: 14px;
+	padding-right: 13px;
 }
 
-#rectangle {
+.rectangle {
 	position: absolute;
-	width: 1433px;
-	height: 87px;
-	left: 103px;
-	top: 148px;
+	top: 113px;
+	width: 100%;
+	height: 45px;
+	padding: 35px, 0;
+	margin: auto;
+	display: flex;
+	font-size: 20px;
 	background: #F1F1F1;
-}
-
-#kontakti {
-	position: absolute;
-	width: 203px;
-	height: 49px;
-	left: 201px;
-	top: 167px;
+	justify-content: center;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
-	color: #F77A06;
-	cursor: pointer;
 }
 
-#rezerv {
-	position: absolute;
-	width: 280px;
-	height: 49px;
-	left: 499px;
-	top: 167px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
-	color: #F77A06;
-	cursor: pointer;
+.rectangle ul li {
+	list-style: none;
+	margin: 0 20px;
+	position: relative;
+	display: inline-block;
+	bottom: 8px;
 }
 
-#parasta_zona {
-	position: absolute;
-	width: 322px;
-	height: 49px;
-	left: 886px;
-	top: 167px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
+.rectangle ul li a {
+	text-decoration: none;
 	color: #F77A06;
+	line-height: 1;
 	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	align-items: center;
 }
 
-#vip {
+.rectangle ul li::after {
+	background: #F77A06;
+	display: block;
+	content: "";
+	height: 3px;
+	width: 0%;
+	left: 50%;
 	position: absolute;
-	width: 87px;
-	height: 46px;
-	left: 1290px;
-	top: 167px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
-	color: #F77A06;
-	cursor: pointer;
+	-webkit-transition: width .3s ease-in-out;
+	-moz--transition: width .3s ease-in-out;
+	transition: width .3s ease-in-out;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.rectangle ul li:hover::after {
+	width: 100%;
+}
+
+
+.Labā_puse_2 {
+	justify-content: flex-end;
+	padding: 16px;
+	display: flex;
+	width: 100%;
 }
 
 #gray_rectangle_2 {
 	position: absolute;
+	top: 158px;
 	width: 103px;
 	height: 1440px;
-	left: 1422px;
-	top: 235px;
 	background: #645959;
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-#image_1 {
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#image {
 	position: absolute;
 	width: 1330px;
 	height: 531px;
-	right: 103px;
 	top: 235px;
 }
 
@@ -190,7 +176,6 @@ h2 {
 	position: absolute;
 	width: 1150px;
 	height: 1032px;
-	left: 193px;
 	top: 795px;
 	font-family: Nunito;
 	font-style: normal;
@@ -202,10 +187,11 @@ h2 {
 
 #gray_rectangle_1 {
 	position: absolute;
+	top: 113px;
+	z-index: 2;
 	width: 103px;
 	height: 1996px;
-	left: 0px;
-	top: 148px;
+	margin-left: 0;
 	background: #645959;
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -214,23 +200,22 @@ h2 {
 	position: absolute;
 	width: 1433px;
 	height: 467px;
-	left: 103px;
 	top: 1675px;
 }
 
 #white_line {
 	position: absolute;
-	width: 1536px;
+	width: 100%;
 	height: 20px;
 	left: 0px;
 	top: 2142px;
 	background: #F1F1F1;
 }
 
-#orange_rectangle_2 {
+.orange_rectangle_2 {
 	position: absolute;
-	width: 1537px;
-	height: 158px;
+	width: 100%;
+	height: 125px;
 	left: 0px;
 	top: 2162px;
 	background: #F77A06;
@@ -240,16 +225,12 @@ h2 {
 	position: absolute;
 	width: 70px;
 	height: 73px;
-	left: 733px;
-	top: 2162px;
 }
 
-h3 {
+h4 {
 	position: absolute;
 	width: 303px;
 	height: 27px;
-	left: 631px;
-	top: 2215px;
 	font-family: Nunito;
 	font-style: normal;
 	font-weight: bold;
@@ -258,12 +239,10 @@ h3 {
 	color: #F1F1F1;
 }
 
-h4 {
+h3 {
 	position: absolute;
 	width: 283px;
 	height: 22px;
-	left: 217px;
-	top: 2239px;
 	font-family: Nunito;
 	font-style: normal;
 	font-weight: bold;
@@ -276,8 +255,6 @@ h5 {
 	position: absolute;
 	width: 509px;
 	height: 22px;
-	left: 566px;
-	top: 2247px;
 	font-family: Nunito;
 	font-style: normal;
 	font-weight: bold;
@@ -290,8 +267,6 @@ h6 {
 	position: absolute;
 	width: 215px;
 	height: 21px;
-	left: 1141px;
-	top: 2219px;
 	font-family: Nunito;
 	font-style: normal;
 	font-weight: bold;
