@@ -1,11 +1,9 @@
 body {
-	height: 2500px;
 	background: #252222;
 }
 
 .orange_rectangle_1 {
 	position: absolute;
-	z-index: 1;
 	width: 100%;
 	height: 105px;
 	display: flex;
@@ -73,7 +71,7 @@ div .pārredzamība:hover {
 	background: #FFFFFF;
 	font-family: Nunito;
 	font-style: normal;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 26px;
 	color: #000000;
 	border-width: 0px;
@@ -153,34 +151,34 @@ div .pārredzamība:hover {
 	position: absolute;
 	top: 158px;
 	width: 103px;
-	height: 1440px;
+	height: 1280px;
 	background: #645959;
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .main {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
-#image {
-	position: absolute;
-	width: 1330px;
-	height: 531px;
-	top: 235px;
+#image_car {
+	margin-top: 120px;
+	width: 1328px;
+	height: 384px;
+	top: 159px;
 }
 
 h2 {
-	position: absolute;
-	width: 1150px;
-	height: 1032px;
-	top: 795px;
+	margin-top: 40px;
+	width: 75%;
+	top: 565px;
 	font-family: Nunito;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 20px;
 	line-height: 35px;
 	color: #FFFFFF;
 }
@@ -188,89 +186,84 @@ h2 {
 #gray_rectangle_1 {
 	position: absolute;
 	top: 113px;
-	z-index: 2;
 	width: 103px;
-	height: 1996px;
+	height: 1340px;
 	margin-left: 0;
 	background: #645959;
 	transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
-#karte {
+#settings {
+	transition: 0.3s all;
+
 	position: absolute;
-	width: 1433px;
+	width: 50px;
+	height: 50px;
+	bottom: 30px;
+	right: 27px;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+#settings:hover {
+	transform: rotate(360deg) scale(1.2);
+	border: 3px dashed black;
+}
+
+#karte {
+	margin-top: 40px;
+	width: 1333px;
 	height: 467px;
-	top: 1675px;
 }
 
 #white_line {
-	position: absolute;
 	width: 100%;
 	height: 20px;
-	left: 0px;
-	top: 2142px;
 	background: #F1F1F1;
 }
 
 .orange_rectangle_2 {
-	position: absolute;
+	display: block;
 	width: 100%;
 	height: 125px;
-	left: 0px;
-	top: 2162px;
 	background: #F77A06;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: #F1F1F1;
+}
+
+.informācija_par_mums {
+	width: 100%;
+	height: 125px;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.kolonna_1 {
+	margin-top: 50px;
+	margin-right: 200px;
+}
+
+.kolonna_2 a {
+	padding-top: 5px;
+	text-align: center;
+	display: block;
+	padding-bottom: 6px;
+}
+
+.kolonna_3 {
+	margin-top: 50px;
+	margin-left: 200px;
+	justify-content: flex-end;
 }
 
 #logo2 {
-	position: absolute;
-	width: 70px;
-	height: 73px;
-}
-
-h4 {
-	position: absolute;
-	width: 303px;
-	height: 27px;
-	font-family: Nunito;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	color: #F1F1F1;
-}
-
-h3 {
-	position: absolute;
-	width: 283px;
-	height: 22px;
-	font-family: Nunito;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	color: #F1F1F1;
-}
-
-h5 {
-	position: absolute;
-	width: 509px;
-	height: 22px;
-	font-family: Nunito;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	color: #F1F1F1;
-}
-
-h6 {
-	position: absolute;
-	width: 215px;
-	height: 21px;
-	font-family: Nunito;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 25px;
-	color: #F1F1F1;	
+	padding-top: 3px;
+	padding-left: 151px;
+	width: 50px;
+	height: 53px;
 }
