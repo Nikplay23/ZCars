@@ -57,3 +57,48 @@ h1{
 	text-align: center;
 	color: #FFFFFF;
 }
+
+#car_card {
+	top: 255px;
+	left: 50px;
+	width: 348px;
+	height: 193px;
+	position: absolute;
+	background: #f8f5f5;
+	border: 10px double rgb(252, 141, 15);
+	border-radius: 10%;
+}
+
+#ford {
+	position: absolute;
+	width: 184px;
+	height: 75px;
+	top: 310px;
+	left: 81px;
+}
+
+#card_2 {
+	
+	width: 348px;
+	height: 193px;
+	left: 500px;
+	top: 255px;
+	position: fixed;
+	background: #f8f5f5;
+	border: 10px double rgb(252, 141, 15);
+	border-radius: 10%;
+
+}
+
+#card_3 {
+
+	width: 348px;
+	height: 193px;
+	left: 950px;
+	top: 255px;
+	position: fixed;
+	background: #f8f5f5;
+	border: 10px double rgb(252, 141, 15);
+	border-radius: 10%;
+
+}
