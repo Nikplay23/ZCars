@@ -11,7 +11,7 @@ h1{
     position: absolute;
 	width: 496px;
 	height: 51px;
-	left: 147px;
+	left: 300px;
 	top: 19px;
 	font-family: Roboto;
 	font-style: normal;
@@ -26,7 +26,7 @@ h1{
     position: absolute;
 	width: 102px;
 	height: 102px;
-	left: 19px;
+	left: 150px;
 	top: 22px;
 	cursor: pointer;
 }
@@ -35,7 +35,7 @@ h1{
 	position: absolute;
 	width: 300px;
 	height: 80px;
-	left: 602px;
+	left: 650px;
 	top: 44px;
 	background: #252222;
 	border-radius: 0px;
@@ -45,7 +45,7 @@ h1{
 	position: absolute;
 	width: 300px;
 	height: 80px;
-	left: 602px;
+	left: 650px;
 	top: 44px;
 	font-family: Roboto;
 	font-style: normal;
@@ -60,7 +60,7 @@ h1{
 
 #car_card {
 	top: 255px;
-	left: 50px;
+	left: 150px;
 	width: 348px;
 	height: 193px;
 	position: absolute;
@@ -69,12 +69,31 @@ h1{
 	border-radius: 10%;
 }
 
-#ford {
-	position: absolute;
+#Ford {
+	position: fixed;
 	width: 184px;
 	height: 75px;
-	top: 310px;
-	left: 81px;
+	top: 350px;
+	left: 55px;
+}
+
+h2{
+
+	position: absolute;
+	width: 215.54px;
+	height: 22px;
+	left: 230px;
+	top: 280px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 31px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
 }
 
 #card_2 {
@@ -90,6 +109,39 @@ h1{
 
 }
 
+
+#Ferrari {
+
+	position: fixed;
+	width: 190px;
+	height: 80px;
+	left: 525px;
+	top: 350px;
+
+}
+
+
+h3{
+
+	position: absolute;
+	width: 215px;
+	height: 22px;
+	left: 700px;
+	top: 260px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 31px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+}
+
+
+
 #card_3 {
 
 	width: 348px;
@@ -100,5 +152,35 @@ h1{
 	background: #f8f5f5;
 	border: 10px double rgb(252, 141, 15);
 	border-radius: 10%;
+
+}
+
+#Nissan {
+
+	position: fixed;
+	width: 187px;
+	height: 96px;
+	left: 975px;
+	top: 340px;
+
+}
+
+
+h4{
+
+	position: fixed;
+	width: 215px;
+	height: 22px;
+	left: 1060px;
+	top: 250px;
+
+	font-family: Merriweather;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 31px;
+	display: flex;
+	align-items: center;
+	text-align: center;
 
 }
